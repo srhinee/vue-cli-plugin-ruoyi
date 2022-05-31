@@ -28,7 +28,7 @@ module.exports = api => {
 
   api.addClientAddon ({
     id: "org.ruoyi.client-addon",
-    path: require.resolve ('vue-cli-plugin-ruoyi/addon/dist')
+    path: 'vue-cli-plugin-ruoyi/addon/dist'
   })
 
 
