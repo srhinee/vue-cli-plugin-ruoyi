@@ -1,0 +1,29 @@
+{
+  "name": "vue-cli-plugin-ruoyi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srhinee/vue-cli-plugin-ruoyi.git"
+  },
+  "keywords": [
+    "ruoyi",
+    "vue-cli-plugin"
+  ],
+  "author": "samsara",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/srhinee/vue-cli-plugin-ruoyi/issues"
+  },
+  "homepage": "https://github.com/srhinee/vue-cli-plugin-ruoyi#readme",
+  "dependencies": {
+    "acorn": "^8.7.1"
+  }
+}

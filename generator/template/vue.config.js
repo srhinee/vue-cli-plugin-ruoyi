@@ -30,11 +30,12 @@ module.exports = {
     host: "0.0.0.0",
     port: port,
     open: false,
+    timeout:process.env.VUE_APP_TIME_OUT,
     proxy: {
       // detail: https://cli.vuejs.org/config/#devserver-proxy
       [process.env.VUE_APP_BASE_API]: {
-        target: `http://vue.ruoyi.vip/prod-api/`,
-        changeOrigin: true,
+        target: process.env.PROXY_TARGET,
+        changeOrigin: process.env.CHANGE_ORIGIN,
         pathRewrite: {
           ["^" + process.env.VUE_APP_BASE_API]: ""
         }
