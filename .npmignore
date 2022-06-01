@@ -1,0 +1,4 @@
+/test
+/addon
+/coverage
+!/addon/dist
