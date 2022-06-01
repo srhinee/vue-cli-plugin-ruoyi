@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-ruoyi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "vue cli plugin customized for ruoyi ui",
   "main": "index.js",
   "scripts": {
