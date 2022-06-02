@@ -6,16 +6,16 @@ module.exports = [
     default: true,
     //ui展示相关
     group: "基础设置",
-    description: "若依现有业务的全局化设置"
+    description: "若依现有业务的全局化设置",
   },
   {
     type: "confirm",
     name: "addBaseTable",
     message: "是否添加表单模板?",
-    validate: input => !!input,
+    validate: (input) => !!input,
     default: false,
     //ui展示相关
     group: "可选组件",
-    description: "一些常用的组件"
-  }
-]
+    description: "一些常用的组件",
+  },
+];
