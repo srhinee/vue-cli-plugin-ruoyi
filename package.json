@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-ruoyi",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "vue cli plugin customized for ruoyi ui",
   "scripts": {
     "pretty": "prettier --loglevel warn --write \"*.{ts,js,json,yml,yaml}\"",
