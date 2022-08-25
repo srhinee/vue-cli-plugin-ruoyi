@@ -31,7 +31,7 @@
 ### 从零新建项目
 
 ```shell
-vue create --preset shrinee/vue-cli-plugin-ruoyi {project_name}
+vue create --preset srhinee/vue-cli-plugin-ruoyi {project_name}
 ```
 
 ### 从已创建项目开始
