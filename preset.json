@@ -1,0 +1,16 @@
+{
+  "useTaobaoRegistry": true,
+  "packageManager": "yarn",
+  "presets": {
+    "ruoyi": {
+      "useConfigFiles": false,
+      "plugins": {
+        "vue-cli-plugin-ruoyi": {
+          "isClickCloseModal": true,
+          "addBaseTable": false
+        }
+      },
+      "vueVersion": "2"
+    }
+  }
+}
